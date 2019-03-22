@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Jiguang.JPush</AssemblyName>
+    <Version>1.2.3</Version>
+    <Authors>hevin, Jiguang, NemesissLin</Authors>
+    <Company>cn.jiguang</Company>
+    <Product>JPush</Product>
+    <Description>The CSharp dotnet core api client by Jiguang.</Description>
+    <Copyright>MIT</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
 
 </Project>
